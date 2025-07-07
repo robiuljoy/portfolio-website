@@ -1,0 +1,131 @@
+/* ADDED GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    }
+
+/* COMMON STYLES */
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(206, 88, 4);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.521) ;
+}
+
+
+
+
+/* nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 200px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+/* HEADER BACKGROUND PHOTO */
+
+.header-section {
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+
+/* BANNER SECTION START */
+
+.banner-content {
+    width: 585px;
+}
+
+
+.banner-greet {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+
+
+.banner-pro-pic {
+    width: 580px;
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.btn-space {
+    margin-top: 30px;
+}
+
+
+
+
+
